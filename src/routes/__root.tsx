@@ -89,13 +89,19 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { property: "og:site_name", content: "Camila Lima — Psicanalista" },
       { property: "og:type", content: "website" },
       { property: "og:locale", content: "pt_BR" },
-      { property: "og:title", content: "Camila Lima — Psicanalista" },
+      { property: "og:title", content: "Camila Lima — Psicanalista | Escuta, reflexão e autoconhecimento" },
       {
         property: "og:description",
         content:
           "Um espaço para escuta, reflexão e descoberta de si. Psicanálise em São Paulo, online e presencial.",
       },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "Camila Lima — Psicanalista | Escuta, reflexão e autoconhecimento" },
+      { name: "description", content: "A professional website for a psychoanalyst, offering a calm space for reflection and self-discovery." },
+      { property: "og:description", content: "A professional website for a psychoanalyst, offering a calm space for reflection and self-discovery." },
+      { name: "twitter:description", content: "A professional website for a psychoanalyst, offering a calm space for reflection and self-discovery." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/d4805a1e-e000-46d4-a355-e6f63f85c9fc/id-preview-e53b9553--1e3ce517-b0f1-4d20-8145-d8438699cec2.lovable.app-1780192870320.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/d4805a1e-e000-46d4-a355-e6f63f85c9fc/id-preview-e53b9553--1e3ce517-b0f1-4d20-8145-d8438699cec2.lovable.app-1780192870320.png" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
