@@ -68,7 +68,7 @@ function Contato() {
             <div>
               <p className="text-[11px] uppercase tracking-[0.3em] text-muted-foreground">Atendimento</p>
               <p className="mt-3 font-serif text-2xl text-primary-deep">
-                Online · Presencial em Pinheiros, São Paulo
+                Online · Presencial em Passo Fundo · RS
               </p>
             </div>
           </div>
