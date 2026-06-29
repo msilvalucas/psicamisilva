@@ -39,7 +39,7 @@ function Sobre() {
           <div className="md:col-span-5">
             <img
               src={portrait}
-              alt="Retrato de Camila Lima."
+              alt="Retrato de Camila Saraiva Lima."
               loading="lazy"
               width={1024}
               height={1280}
