@@ -12,7 +12,7 @@ export function SiteFooter() {
           </p>
           <p className="mt-6 max-w-sm text-sm text-muted-foreground">
             Um espaço de escuta para quem deseja se aproximar de si com cuidado, ética e
-            tempo. Atendimento online e presencial em {SITE.city}.
+            tempo. Atendimento online e presencial em Passo Fundo · RS.
           </p>
         </div>
 
@@ -40,14 +40,14 @@ export function SiteFooter() {
                 Instagram {SITE.instagram}
               </a>
             </li>
-            <li className="text-muted-foreground">{SITE.city}</li>
+            <li className="text-muted-foreground">Passo Fundo · RS</li>
           </ul>
         </div>
       </div>
 
       <div className="border-t border-border/60">
         <div className="container-editorial flex flex-col gap-2 py-6 text-[11px] uppercase tracking-[0.25em] text-muted-foreground md:flex-row md:items-center md:justify-between">
-          <p>© {new Date().getFullYear()} {SITE.name}. Todos os direitos reservados.</p>
+          <p>© 2026 CAMILA SARAIVA LIMA. TODOS OS DIREITOS RESERVADOS.</p>
           <p>Sigilo profissional preservado · Conteúdo informativo, não substitui consulta.</p>
         </div>
       </div>

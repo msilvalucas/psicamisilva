@@ -12,13 +12,13 @@ import {
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Camila Lima — Psicanalista em São Paulo" },
+      { title: "Camila Saraiva Lima — PSICÓLOGA em Passo Fundo" },
       {
         name: "description",
         content:
-          "Um espaço para escuta, reflexão e descoberta de si. Psicanálise para adultos — atendimento online e presencial em São Paulo.",
+          "Um espaço para escuta, reflexão e descoberta de si. Psicanálise para adultos — atendimento online e presencial em Passo Fundo · RS.",
       },
-      { property: "og:title", content: "Camila Lima — Psicanalista em São Paulo" },
+      { property: "og:title", content: "Camila Saraiva Lima — PSICÓLOGA em Passo Fundo" },
       {
         property: "og:description",
         content: "Um espaço para escuta, reflexão e descoberta de si.",
@@ -76,7 +76,7 @@ function Index() {
           <div className="md:col-span-7">
             <p className="text-[11px] uppercase tracking-[0.35em] text-muted-foreground">
               <span className="mr-3 inline-block h-px w-8 -translate-y-1 bg-current align-middle" />
-              Psicanálise · {SITE.city}
+              PSICANÁLISE · PASSO FUNDO&nbsp;· RS
             </p>
             <h1 className="mt-8 font-serif text-[clamp(2.5rem,6.5vw,5.25rem)] leading-[1.02] tracking-[-0.02em] text-primary-deep text-balance">
               Um espaço para <em className="font-medium italic text-accent">escuta</em>, reflexão e descoberta de si.
@@ -108,7 +108,7 @@ function Index() {
               <div className="absolute -inset-3 -z-10 bg-surface" />
               <img
                 src={portrait}
-                alt="Retrato de Camila Lima, psicanalista, olhando serenamente para a luz da janela."
+                alt="Retrato de Camila Saraiva Lima, psicóloga, olhando serenamente para a luz da janela."
                 width={1024}
                 height={1280}
                 className="aspect-[4/5] w-full object-cover grayscale-[0.05]"
@@ -160,7 +160,7 @@ function Index() {
             <figure>
               <img
                 src={portrait}
-                alt="Camila Lima, psicanalista."
+                alt="Camila Saraiva Lima, psicóloga."
                 loading="lazy"
                 width={1024}
                 height={1280}
@@ -170,12 +170,12 @@ function Index() {
           </div>
           <div className="md:col-span-7">
             <h2 className="font-serif text-4xl md:text-5xl text-primary-deep text-balance">
-              Sou Camila — e a escuta é, antes de tudo, um cuidado.
+              Sou Camila Saraiva Lima — e a escuta é, antes de tudo, um cuidado.
             </h2>
             <div className="mt-8 space-y-5 text-foreground/85">
               <p>
                 Atendo adultos em processos de psicanálise, online e presencialmente em
-                Pinheiros, São Paulo. Acredito que cada percurso é singular e que a clínica
+                Passo Fundo · RS. Acredito que cada percurso é singular e que a clínica
                 se constrói no encontro — entre o que se diz, o que se cala e o que vai,
                 aos poucos, ganhando forma.
               </p>

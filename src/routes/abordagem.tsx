@@ -5,9 +5,9 @@ import { whatsappUrl } from "@/lib/site";
 export const Route = createFileRoute("/abordagem")({
   head: () => ({
     meta: [
-      { title: "Abordagem — Psicanálise | Camila Lima" },
+      { title: "Abordagem — Psicanálise | Camila Saraiva Lima" },
       { name: "description", content: "Como entendo o trabalho psicanalítico: uma escuta orientada pelo inconsciente, atenta ao tempo de cada pessoa." },
-      { property: "og:title", content: "Abordagem — Camila Lima" },
+      { property: "og:title", content: "Abordagem — Camila Saraiva Lima" },
       { property: "og:description", content: "Uma escuta orientada pela psicanálise." },
       { property: "og:url", content: "/abordagem" },
     ],

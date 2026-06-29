@@ -4,9 +4,9 @@ import { Section } from "@/components/site/Section";
 export const Route = createFileRoute("/areas")({
   head: () => ({
     meta: [
-      { title: "Áreas de cuidado — Camila Lima" },
+      { title: "Áreas de cuidado — Camila Saraiva Lima" },
       { name: "description", content: "Possíveis pontos de partida para uma análise: ansiedade, autoestima, relacionamentos, luto, conflitos emocionais e autoconhecimento." },
-      { property: "og:title", content: "Áreas de cuidado — Camila Lima" },
+      { property: "og:title", content: "Áreas de cuidado — Camila Saraiva Lima" },
       { property: "og:description", content: "Temas frequentes na clínica psicanalítica." },
       { property: "og:url", content: "/areas" },
     ],

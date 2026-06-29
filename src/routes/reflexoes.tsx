@@ -4,9 +4,9 @@ import { Section } from "@/components/site/Section";
 export const Route = createFileRoute("/reflexoes")({
   head: () => ({
     meta: [
-      { title: "Reflexões — Camila Lima, Psicanalista" },
+      { title: "Reflexões — Camila Saraiva Lima, PSICÓLOGA" },
       { name: "description", content: "Textos e reflexões sobre escuta, psicanálise, silêncio e a travessia dos afetos." },
-      { property: "og:title", content: "Reflexões — Camila Lima" },
+      { property: "og:title", content: "Reflexões — Camila Saraiva Lima" },
       { property: "og:description", content: "Pensamentos sobre escuta, tempo e travessias." },
       { property: "og:url", content: "/reflexoes" },
     ],

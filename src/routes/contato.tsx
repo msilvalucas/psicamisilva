@@ -6,9 +6,9 @@ import { SITE, whatsappUrl } from "@/lib/site";
 export const Route = createFileRoute("/contato")({
   head: () => ({
     meta: [
-      { title: "Contato — Camila Lima, Psicanalista" },
-      { name: "description", content: "Entre em contato com Camila Lima para agendar uma primeira sessão. Atendimento online e presencial em São Paulo." },
-      { property: "og:title", content: "Contato — Camila Lima" },
+      { title: "Contato — Camila Saraiva Lima, PSICÓLOGA" },
+      { name: "description", content: "Entre em contato com Camila Saraiva Lima para agendar uma primeira sessão. Atendimento online e presencial em Passo Fundo." },
+      { property: "og:title", content: "Contato — Camila Saraiva Lima" },
       { property: "og:description", content: "Agendar uma primeira conversa." },
       { property: "og:url", content: "/contato" },
     ],
@@ -68,7 +68,7 @@ function Contato() {
             <div>
               <p className="text-[11px] uppercase tracking-[0.3em] text-muted-foreground">Atendimento</p>
               <p className="mt-3 font-serif text-2xl text-primary-deep">
-                Online · Presencial em Pinheiros, São Paulo
+                Online · Presencial em Passo Fundo · RS
               </p>
             </div>
           </div>

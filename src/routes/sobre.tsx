@@ -6,10 +6,10 @@ import { SITE, whatsappUrl } from "@/lib/site";
 export const Route = createFileRoute("/sobre")({
   head: () => ({
     meta: [
-      { title: "Sobre — Camila Lima, Psicanalista" },
-      { name: "description", content: "Conheça Camila Lima, psicanalista em São Paulo. Sua formação, valores e o modo como entende a clínica como um espaço de escuta cuidadosa." },
-      { property: "og:title", content: "Sobre — Camila Lima" },
-      { property: "og:description", content: "Uma biografia humana de Camila Lima, psicanalista." },
+      { title: "Sobre — Camila Saraiva Lima, PSICÓLOGA" },
+      { name: "description", content: "Conheça Camila Saraiva Lima, psicóloga em Passo Fundo. Sua formação, valores e o modo como entende a clínica como um espaço de escuta cuidadosa." },
+      { property: "og:title", content: "Sobre — Camila Saraiva Lima" },
+      { property: "og:description", content: "Uma biografia humana de Camila Saraiva Lima, psicóloga." },
       { property: "og:url", content: "/sobre" },
     ],
     links: [{ rel: "canonical", href: "/sobre" }],
@@ -39,7 +39,7 @@ function Sobre() {
           <div className="md:col-span-5">
             <img
               src={portrait}
-              alt="Retrato de Camila Lima."
+              alt="Retrato de Camila Saraiva Lima."
               loading="lazy"
               width={1024}
               height={1280}
@@ -52,8 +52,8 @@ function Sobre() {
 
           <div className="md:col-span-7 space-y-6 text-lg text-foreground/85">
             <p>
-              Sou Camila Lima, psicanalista. Vivo e atendo em São Paulo, e me dedico há mais
-              de uma década à clínica de adultos. Cheguei à psicanálise como quem reconhece,
+              Sou Camila Saraiva Lima, psicóloga. Vivo e atendo em Passo Fundo · RS, e me
+              dedico há mais de uma década à clínica de adultos. Cheguei à psicanálise como quem reconhece,
               em outra língua, algo que já se intuía: que escutar é também uma forma de
               cuidar, e que existem perguntas que pedem mais tempo do que respostas.
             </p>
@@ -77,7 +77,7 @@ function Sobre() {
               Trabalho com psicanálise — uma escuta orientada pelo inconsciente, atenta às
               repetições, aos sintomas e aos modos como cada pessoa constrói sentido para
               aquilo que vive. As sessões acontecem semanalmente, com 50 minutos, online ou
-              presencialmente em Pinheiros.
+              presencialmente em Passo Fundo · RS.
             </p>
 
             <h2 className="font-serif text-3xl text-primary-deep">Valores</h2>
