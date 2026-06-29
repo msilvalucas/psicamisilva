@@ -53,13 +53,6 @@ const steps = [
   { n: "04", t: "Acompanhamento contínuo",d: "Um percurso que se desdobra. Não há roteiro: há presença, escuta e o trabalho paciente da elaboração." },
 ];
 
-const reflections = [
-  { date: "Outono · 2025",  t: "O silêncio também cura",                  d: "Há aquilo que se diz e aquilo que aparece justamente quando se permite não dizer." },
-  { date: "Inverno · 2025", t: "Por que repetimos os mesmos padrões?",    d: "Sobre a compulsão à repetição e o modo como o inconsciente insiste em ser ouvido." },
-  { date: "Primavera · 2024", t: "O que a ansiedade tenta comunicar?",    d: "Antes de silenciar o sintoma, escutar o que ele tenta nomear sobre nossa vida." },
-  { date: "Verão · 2024",   t: "A importância da escuta emocional",       d: "Escutar não é responder. É deixar que o outro encontre, em si, aquilo que precisa ser encontrado." },
-];
-
 const testimonials = [
   { quote: "Excelente profissional! Muito atenciosa, acolhedora e ética. Me senti confortável desde a primeira sessão. Recomendo muito!", who: "E. C.", when: "4 meses atrás" },
   { quote: "Ótima profissional, indico mesmo!", who: "D. R.", when: "9 meses atrás" },
@@ -260,30 +253,6 @@ function Index() {
         </div>
       </Section>
 
-      {/* REFLECTIONS */}
-      <Section eyebrow="Reflexões" className="bg-surface/60">
-        <div className="flex flex-wrap items-end justify-between gap-6">
-          <h2 className="max-w-2xl font-serif text-4xl md:text-5xl text-primary-deep text-balance">
-            Pensamentos sobre escuta, tempo e travessias.
-          </h2>
-          <Link to="/reflexoes" className="text-[11px] uppercase tracking-[0.3em] text-primary-deep link-underline">
-            Ver todas →
-          </Link>
-        </div>
-
-        <div className="mt-14 grid gap-px bg-border/70 md:grid-cols-2">
-          {reflections.map((r) => (
-            <article key={r.t} className="group bg-background p-10 transition-colors hover:bg-paper">
-              <p className="text-[11px] uppercase tracking-[0.3em] text-muted-foreground">{r.date}</p>
-              <h3 className="mt-6 font-serif text-3xl text-primary-deep">{r.t}</h3>
-              <p className="mt-4 text-foreground/75">{r.d}</p>
-              <p className="mt-8 text-[11px] uppercase tracking-[0.3em] text-accent">
-                Ler reflexão →
-              </p>
-            </article>
-          ))}
-        </div>
-      </Section>
 
       {/* TESTIMONIALS */}
       <Section eyebrow="Quem caminhou comigo">
