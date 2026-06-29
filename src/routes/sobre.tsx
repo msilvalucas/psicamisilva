@@ -77,7 +77,7 @@ function Sobre() {
               Trabalho com psicanálise — uma escuta orientada pelo inconsciente, atenta às
               repetições, aos sintomas e aos modos como cada pessoa constrói sentido para
               aquilo que vive. As sessões acontecem semanalmente, com 50 minutos, online ou
-              presencialmente em Pinheiros.
+              presencialmente em Passo Fundo · RS.
             </p>
 
             <h2 className="font-serif text-3xl text-primary-deep">Valores</h2>
