@@ -94,7 +94,7 @@ function Index() {
               Um espaço para <em className="font-medium italic text-accent">escuta</em>, reflexão e descoberta de si.
             </h1>
             <p className="mt-8 max-w-xl text-lg leading-relaxed text-foreground/80 text-pretty">
-              Pela psicanálise, exploramos suas experiências, emoções e relações — buscando, no
+              Pela psicanálise, exploramos suas experiências, emoções e relações buscando, no
               próprio tempo, encontrar novos sentidos dentro da sua história.
             </p>
             <div className="mt-10 flex flex-wrap items-center gap-4">
@@ -149,7 +149,7 @@ function Index() {
           <div className="md:col-span-5 space-y-6 text-foreground/85">
             <p>
               A terapia não acontece apenas pela palavra. Ela se faz também nas pausas,
-              nos retornos, naquilo que demora a ser dito — e que, justamente por isso,
+              nos retornos, naquilo que demora a ser dito e que, justamente por isso,
               pede um espaço seguro para aparecer.
             </p>
             <p>
@@ -159,7 +159,7 @@ function Index() {
             </p>
             <p className="font-serif text-2xl italic leading-snug text-primary-deep">
               “Curar é, muitas vezes, encontrar coragem para escutar o que sempre esteve
-              ali — apenas aguardando ser ouvido.”
+              ali apenas aguardando ser ouvido.”
             </p>
           </div>
         </div>
@@ -182,7 +182,7 @@ function Index() {
           </div>
           <div className="md:col-span-7">
             <h2 className="font-serif text-4xl md:text-5xl text-primary-deep text-balance">
-              Sou Camila Saraiva Lima — e a escuta é, antes de tudo, um cuidado.
+              Sou Camila Saraiva Lima e a escuta é, antes de tudo, um cuidado.
             </h2>
             <div className="mt-8 space-y-5 text-foreground/85">
               <p>
