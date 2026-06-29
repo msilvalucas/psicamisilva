@@ -170,7 +170,7 @@ function Index() {
           </div>
           <div className="md:col-span-7">
             <h2 className="font-serif text-4xl md:text-5xl text-primary-deep text-balance">
-              Sou Camila — e a escuta é, antes de tudo, um cuidado.
+              Sou Camila Saraiva Lima — e a escuta é, antes de tudo, um cuidado.
             </h2>
             <div className="mt-8 space-y-5 text-foreground/85">
               <p>
