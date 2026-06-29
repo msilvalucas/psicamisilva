@@ -52,8 +52,8 @@ function Sobre() {
 
           <div className="md:col-span-7 space-y-6 text-lg text-foreground/85">
             <p>
-              Sou Camila Lima, psicanalista. Vivo e atendo em São Paulo, e me dedico há mais
-              de uma década à clínica de adultos. Cheguei à psicanálise como quem reconhece,
+              Sou Camila Saraiva Lima, psicóloga. Vivo e atendo em Passo Fundo · RS, e me
+              dedico há mais de uma década à clínica de adultos. Cheguei à psicanálise como quem reconhece,
               em outra língua, algo que já se intuía: que escutar é também uma forma de
               cuidar, e que existem perguntas que pedem mais tempo do que respostas.
             </p>
