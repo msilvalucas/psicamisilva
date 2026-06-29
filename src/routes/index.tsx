@@ -1,6 +1,6 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import heroImg from "@/assets/camila-hero.png.asset.json";
-import portrait from "@/assets/portrait.jpg";
+import camilaImg from "@/assets/camila-sobre.png.asset.json";
 import { Section } from "@/components/site/Section";
 import { SITE, whatsappUrl } from "@/lib/site";
 import {
@@ -165,7 +165,7 @@ function Index() {
           <div className="md:col-span-5">
             <figure>
               <img
-                src={portrait}
+                src={camilaImg.url}
                 alt="Camila Saraiva Lima, psicóloga."
                 loading="lazy"
                 width={1024}
