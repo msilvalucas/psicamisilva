@@ -165,7 +165,7 @@ function Index() {
           <div className="md:col-span-5">
             <figure>
               <img
-                src={portrait}
+                src={camilaImg.url}
                 alt="Camila Saraiva Lima, psicóloga."
                 loading="lazy"
                 width={1024}
