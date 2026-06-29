@@ -6,10 +6,10 @@ import { SITE, whatsappUrl } from "@/lib/site";
 export const Route = createFileRoute("/sobre")({
   head: () => ({
     meta: [
-      { title: "Sobre — Camila Lima, Psicanalista" },
-      { name: "description", content: "Conheça Camila Lima, psicanalista em São Paulo. Sua formação, valores e o modo como entende a clínica como um espaço de escuta cuidadosa." },
-      { property: "og:title", content: "Sobre — Camila Lima" },
-      { property: "og:description", content: "Uma biografia humana de Camila Lima, psicanalista." },
+      { title: "Sobre — Camila Saraiva Lima, PSICÓLOGA" },
+      { name: "description", content: "Conheça Camila Saraiva Lima, psicóloga em Passo Fundo. Sua formação, valores e o modo como entende a clínica como um espaço de escuta cuidadosa." },
+      { property: "og:title", content: "Sobre — Camila Saraiva Lima" },
+      { property: "og:description", content: "Uma biografia humana de Camila Saraiva Lima, psicóloga." },
       { property: "og:url", content: "/sobre" },
     ],
     links: [{ rel: "canonical", href: "/sobre" }],
