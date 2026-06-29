@@ -118,14 +118,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         children: JSON.stringify({
           "@context": "https://schema.org",
           "@type": "Person",
-          name: "Camila Lima",
-          jobTitle: "Psicanalista",
+          name: "Camila Saraiva Lima",
+          jobTitle: "PSICÓLOGA",
           description:
-            "Psicanalista em São Paulo. Atendimento clínico online e presencial.",
+            "Psicóloga em Passo Fundo. Atendimento clínico online e presencial.",
           address: {
             "@type": "PostalAddress",
-            addressLocality: "São Paulo",
-            addressRegion: "SP",
+            addressLocality: "Passo Fundo",
+            addressRegion: "RS",
             addressCountry: "BR",
           },
           telephone: "+55 11 91234-5678",
