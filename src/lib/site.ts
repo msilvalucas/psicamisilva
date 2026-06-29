@@ -1,8 +1,8 @@
 export const SITE = {
-  name: "Camila Lima",
-  role: "Psicanalista",
-  crp: "CRP 06/123456",
-  city: "São Paulo · Pinheiros",
+  name: "Camila Saraiva Lima",
+  role: "PSICÓLOGA",
+  crp: "CRP 07/43338",
+  city: "Passo Fundo · RS",
   email: "contato@psicamilalima.com.br",
   instagram: "@psi_camilaslima",
   instagramUrl: "https://instagram.com/psi_camilaslima",
