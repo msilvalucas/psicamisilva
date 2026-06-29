@@ -6,7 +6,7 @@ export const SITE = {
   email: "contato@psicamilalima.com.br",
   instagram: "@psi_camilaslima",
   instagramUrl: "https://instagram.com/psi_camilaslima",
-  whatsappNumber: "5511912345678",
+  whatsappNumber: "5554991976608",
   whatsappMessage:
     "Olá, Camila. Encontrei seu site e gostaria de conversar sobre uma primeira sessão.",
 };
