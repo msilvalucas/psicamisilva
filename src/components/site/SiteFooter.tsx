@@ -40,7 +40,7 @@ export function SiteFooter() {
                 Instagram {SITE.instagram}
               </a>
             </li>
-            <li className="text-muted-foreground">{SITE.city}</li>
+            <li className="text-muted-foreground">Passo Fundo · RS</li>
           </ul>
         </div>
       </div>
