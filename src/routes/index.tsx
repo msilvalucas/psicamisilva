@@ -12,13 +12,13 @@ import {
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Camila Lima — Psicanalista em São Paulo" },
+      { title: "Camila Saraiva Lima — PSICÓLOGA em Passo Fundo" },
       {
         name: "description",
         content:
-          "Um espaço para escuta, reflexão e descoberta de si. Psicanálise para adultos — atendimento online e presencial em São Paulo.",
+          "Um espaço para escuta, reflexão e descoberta de si. Psicanálise para adultos — atendimento online e presencial em Passo Fundo · RS.",
       },
-      { property: "og:title", content: "Camila Lima — Psicanalista em São Paulo" },
+      { property: "og:title", content: "Camila Saraiva Lima — PSICÓLOGA em Passo Fundo" },
       {
         property: "og:description",
         content: "Um espaço para escuta, reflexão e descoberta de si.",
