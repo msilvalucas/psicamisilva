@@ -113,8 +113,8 @@ function Index() {
             <figure className="relative">
               <div className="absolute -inset-3 -z-10 bg-surface" />
               <img
-                src={portrait}
-                alt="Retrato de Camila Saraiva Lima, psicóloga, olhando serenamente para a luz da janela."
+                src={heroImg.url}
+                alt="Retrato de Camila Saraiva Lima, psicóloga."
                 width={1024}
                 height={1280}
                 className="aspect-[4/5] w-full object-cover grayscale-[0.05]"
