@@ -49,7 +49,7 @@ const areas = [
 const steps = [
   { n: "01", t: "Contato inicial",        d: "Um primeiro e-mail ou mensagem para apresentarmos, com tranquilidade, o que você procura." },
   { n: "02", t: "Primeira sessão",        d: "Um encontro de escuta, sem compromisso de continuidade. Um espaço para sentir se há ressonância." },
-  { n: "03", t: "Processo terapêutico",   d: "Encontros regulares, semanais, em um ritmo construído a dois — com tempo para a palavra e para o silêncio." },
+  { n: "03", t: "Processo terapêutico",   d: "Encontros regulares, semanais, em um ritmo construído a dois com tempo para a palavra e para o silêncio." },
   { n: "04", t: "Acompanhamento contínuo",d: "Um percurso que se desdobra. Não há roteiro: há presença, escuta e o trabalho paciente da elaboração." },
 ];
 
