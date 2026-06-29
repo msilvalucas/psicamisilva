@@ -54,9 +54,14 @@ const reflections = [
 ];
 
 const testimonials = [
-  { quote: "Encontrei um espaço em que pude, talvez pela primeira vez, escutar a mim mesma sem pressa.", who: "M., 38 anos" },
-  { quote: "A escuta da Camila tem uma qualidade rara: sustenta o silêncio sem desconforto, e devolve sentido às palavras.", who: "R., 31 anos" },
-  { quote: "Não é sobre receber respostas, é sobre poder formular as próprias perguntas com mais coragem.", who: "A., 44 anos" },
+  { quote: "Excelente profissional! Muito atenciosa, acolhedora e ética. Me senti confortável desde a primeira sessão. Recomendo muito!", who: "E. C.", when: "4 meses atrás" },
+  { quote: "Ótima profissional, indico mesmo!", who: "D. R.", when: "9 meses atrás" },
+  { quote: "Excelente profissional, recomendo muito!", who: "F. F.", when: "9 meses atrás" },
+  { quote: "Ótima profissional, recomendo!", who: "R. B.", when: "9 meses atrás" },
+  { quote: "Ótima profissional!", who: "C. L. C. T.", when: "9 meses atrás" },
+  { quote: "Profissional incrível, super indico.", who: "P. A.", when: "9 meses atrás" },
+  { quote: "Excelente profissional.", who: "A. G.", when: "9 meses atrás" },
+  { quote: "Ótima profissional.", who: "A. V.", when: "9 meses atrás" },
 ];
 
 const faqs = [
