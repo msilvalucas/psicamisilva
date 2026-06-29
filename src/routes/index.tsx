@@ -1,5 +1,6 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import heroImg from "@/assets/camila-hero.png.asset.json";
+import camilaImg from "@/assets/camila-sobre.png.asset.json";
 import portrait from "@/assets/portrait.jpg";
 import { Section } from "@/components/site/Section";
 import { SITE, whatsappUrl } from "@/lib/site";
