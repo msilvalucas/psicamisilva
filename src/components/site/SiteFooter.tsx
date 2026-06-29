@@ -12,7 +12,7 @@ export function SiteFooter() {
           </p>
           <p className="mt-6 max-w-sm text-sm text-muted-foreground">
             Um espaço de escuta para quem deseja se aproximar de si com cuidado, ética e
-            tempo. Atendimento online e presencial em {SITE.city}.
+            tempo. Atendimento online e presencial em Passo Fundo · RS.
           </p>
         </div>
 
