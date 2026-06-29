@@ -1,5 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
-import portrait from "@/assets/portrait.jpg";
+import camilaImg from "@/assets/camila-saraiva-lima.png.asset.json";
 import { Section } from "@/components/site/Section";
 import { SITE, whatsappUrl } from "@/lib/site";
 
@@ -38,7 +38,7 @@ function Sobre() {
         <div className="grid gap-16 md:grid-cols-12 md:gap-12">
           <div className="md:col-span-5">
             <img
-              src={portrait}
+              src={camilaImg.url}
               alt="Retrato de Camila Saraiva Lima."
               loading="lazy"
               width={1024}
