@@ -160,7 +160,7 @@ function Index() {
             <figure>
               <img
                 src={portrait}
-                alt="Camila Lima, psicanalista."
+                alt="Camila Saraiva Lima, psicóloga."
                 loading="lazy"
                 width={1024}
                 height={1280}
