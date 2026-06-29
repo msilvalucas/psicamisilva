@@ -8,6 +8,13 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from "@/components/ui/carousel";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -54,9 +61,14 @@ const reflections = [
 ];
 
 const testimonials = [
-  { quote: "Encontrei um espaço em que pude, talvez pela primeira vez, escutar a mim mesma sem pressa.", who: "M., 38 anos" },
-  { quote: "A escuta da Camila tem uma qualidade rara: sustenta o silêncio sem desconforto, e devolve sentido às palavras.", who: "R., 31 anos" },
-  { quote: "Não é sobre receber respostas, é sobre poder formular as próprias perguntas com mais coragem.", who: "A., 44 anos" },
+  { quote: "Excelente profissional! Muito atenciosa, acolhedora e ética. Me senti confortável desde a primeira sessão. Recomendo muito!", who: "E. C.", when: "4 meses atrás" },
+  { quote: "Ótima profissional, indico mesmo!", who: "D. R.", when: "9 meses atrás" },
+  { quote: "Excelente profissional, recomendo muito!", who: "F. F.", when: "9 meses atrás" },
+  { quote: "Ótima profissional, recomendo!", who: "R. B.", when: "9 meses atrás" },
+  { quote: "Ótima profissional!", who: "C. L. C. T.", when: "9 meses atrás" },
+  { quote: "Profissional incrível, super indico.", who: "P. A.", when: "9 meses atrás" },
+  { quote: "Excelente profissional.", who: "A. G.", when: "9 meses atrás" },
+  { quote: "Ótima profissional.", who: "A. V.", when: "9 meses atrás" },
 ];
 
 const faqs = [
@@ -275,18 +287,34 @@ function Index() {
 
       {/* TESTIMONIALS */}
       <Section eyebrow="Quem caminhou comigo">
-        <div className="grid gap-12 md:grid-cols-3">
-          {testimonials.map((t, i) => (
-            <figure key={i} className="border-t border-border pt-8">
-              <blockquote className="font-serif text-2xl italic leading-snug text-primary-deep">
-                “{t.quote}”
-              </blockquote>
-              <figcaption className="mt-8 text-[11px] uppercase tracking-[0.3em] text-muted-foreground">
-                — {t.who}
-              </figcaption>
-            </figure>
-          ))}
-        </div>
+        <Carousel
+          opts={{ align: "start", loop: true }}
+          className="w-full"
+        >
+          <CarouselContent className="-ml-6">
+            {testimonials.map((t, i) => (
+              <CarouselItem
+                key={i}
+                className="pl-6 md:basis-1/2 lg:basis-1/3"
+              >
+                <figure className="flex h-full flex-col border-t border-border pt-8">
+                  <blockquote className="font-serif text-2xl italic leading-snug text-primary-deep">
+                    “{t.quote}”
+                  </blockquote>
+                  <figcaption className="mt-8 flex items-baseline gap-4 text-[11px] uppercase tracking-[0.3em] text-muted-foreground">
+                    <span>— {t.who}</span>
+                    <span className="h-px flex-1 bg-border" />
+                    <span>{t.when}</span>
+                  </figcaption>
+                </figure>
+              </CarouselItem>
+            ))}
+          </CarouselContent>
+          <div className="mt-10 flex items-center justify-end gap-3">
+            <CarouselPrevious className="static translate-y-0 border-primary-deep/40 text-primary-deep hover:bg-primary-deep hover:text-primary-foreground" />
+            <CarouselNext className="static translate-y-0 border-primary-deep/40 text-primary-deep hover:bg-primary-deep hover:text-primary-foreground" />
+          </div>
+        </Carousel>
         <p className="mt-12 max-w-2xl text-xs text-muted-foreground">
           Depoimentos compartilhados com autorização e mantidos em forma anônima, em
           respeito ao sigilo profissional.
