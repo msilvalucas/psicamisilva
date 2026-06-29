@@ -76,7 +76,7 @@ function Index() {
           <div className="md:col-span-7">
             <p className="text-[11px] uppercase tracking-[0.35em] text-muted-foreground">
               <span className="mr-3 inline-block h-px w-8 -translate-y-1 bg-current align-middle" />
-              Psicanálise · {SITE.city}
+              PSICANÁLISE · PASSO FUNDO&nbsp;· RS
             </p>
             <h1 className="mt-8 font-serif text-[clamp(2.5rem,6.5vw,5.25rem)] leading-[1.02] tracking-[-0.02em] text-primary-deep text-balance">
               Um espaço para <em className="font-medium italic text-accent">escuta</em>, reflexão e descoberta de si.
