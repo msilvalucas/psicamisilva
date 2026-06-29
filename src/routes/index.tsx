@@ -175,7 +175,7 @@ function Index() {
             <div className="mt-8 space-y-5 text-foreground/85">
               <p>
                 Atendo adultos em processos de psicanálise, online e presencialmente em
-                Pinheiros, São Paulo. Acredito que cada percurso é singular e que a clínica
+                Passo Fundo · RS. Acredito que cada percurso é singular e que a clínica
                 se constrói no encontro — entre o que se diz, o que se cala e o que vai,
                 aos poucos, ganhando forma.
               </p>
