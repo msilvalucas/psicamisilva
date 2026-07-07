@@ -1,4 +1,3 @@
-import { Link } from "@tanstack/react-router";
 import { SITE, NAV } from "@/lib/site";
 
 export function SiteFooter() {
