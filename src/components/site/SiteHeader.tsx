@@ -39,15 +39,13 @@ export function SiteHeader() {
 
         <nav className="hidden lg:flex items-center gap-8">
           {NAV.slice(1).map((item) => (
-            <Link
+            <a
               key={item.to}
-              to={item.to}
+              href={item.to}
               className="text-[13px] tracking-wide text-foreground/80 hover:text-primary-deep link-underline"
-              activeProps={{ className: "text-primary-deep" }}
-              activeOptions={{ exact: item.to === "/" }}
             >
               {item.label}
-            </Link>
+            </a>
           ))}
           <a
             href={whatsappUrl()}
