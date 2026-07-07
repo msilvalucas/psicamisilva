@@ -74,14 +74,14 @@ export function SiteHeader() {
       >
         <nav className="container-editorial flex flex-col gap-2 pt-10">
           {NAV.map((item) => (
-            <Link
+            <a
               key={item.to}
-              to={item.to}
+              href={item.to}
               onClick={() => setOpen(false)}
               className="border-b border-border/60 py-5 font-serif text-2xl text-primary-deep"
             >
               {item.label}
-            </Link>
+            </a>
           ))}
           <a
             href={whatsappUrl()}
