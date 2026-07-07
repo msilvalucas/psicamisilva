@@ -39,15 +39,13 @@ export function SiteHeader() {
 
         <nav className="hidden lg:flex items-center gap-8">
           {NAV.slice(1).map((item) => (
-            <Link
+            <a
               key={item.to}
-              to={item.to}
+              href={item.to}
               className="text-[13px] tracking-wide text-foreground/80 hover:text-primary-deep link-underline"
-              activeProps={{ className: "text-primary-deep" }}
-              activeOptions={{ exact: item.to === "/" }}
             >
               {item.label}
-            </Link>
+            </a>
           ))}
           <a
             href={whatsappUrl()}
@@ -76,14 +74,14 @@ export function SiteHeader() {
       >
         <nav className="container-editorial flex flex-col gap-2 pt-10">
           {NAV.map((item) => (
-            <Link
+            <a
               key={item.to}
-              to={item.to}
+              href={item.to}
               onClick={() => setOpen(false)}
               className="border-b border-border/60 py-5 font-serif text-2xl text-primary-deep"
             >
               {item.label}
-            </Link>
+            </a>
           ))}
           <a
             href={whatsappUrl()}

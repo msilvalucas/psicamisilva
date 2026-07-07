@@ -1,4 +1,5 @@
-import { createFileRoute, Link } from "@tanstack/react-router";
+import { createFileRoute } from "@tanstack/react-router";
+import { useState } from "react";
 import heroImg from "@/assets/camila-hero-v2.png.asset.json";
 import camilaImg from "@/assets/camila-sobre-v2.png.asset.json";
 import { Section } from "@/components/site/Section";
@@ -47,6 +48,13 @@ const areas = [
   { n: "VI",  t: "Autoconhecimento",     d: "Reencontrar-se aos poucos, escutando o que ainda não havia tido espaço para ser dito." },
 ];
 
+const pilares = [
+  { t: "Escuta", d: "Não toda escuta é a mesma. A escuta psicanalítica acolhe o que se diz e o que escapa àquilo que se quis dizer." },
+  { t: "Tempo",  d: "Há um tempo lógico em cada processo. A clínica respeita esse tempo, mesmo quando ele difere do tempo do mundo." },
+  { t: "Palavra",d: "É pela palavra — dita, repetida, esquecida, recuperada — que algo se elabora. A linguagem é o instrumento e a matéria." },
+  { t: "Ética",  d: "Sigilo, respeito e a recusa em prescrever modos de viver. A análise convida o sujeito a se responsabilizar pelo próprio desejo." },
+];
+
 const steps = [
   { n: "01", t: "Contato inicial",        d: "Um primeiro e-mail ou mensagem para apresentarmos, com tranquilidade, o que você procura." },
   { n: "02", t: "Primeira sessão",        d: "Um encontro de escuta, sem compromisso de continuidade. Um espaço para sentir se há ressonância." },
@@ -74,6 +82,14 @@ const faqs = [
 ];
 
 function Index() {
+  const [form, setForm] = useState({ nome: "", email: "", msg: "" });
+
+  const handleSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    const msg = `Olá, Camila. Meu nome é ${form.nome} (${form.email}).\n\n${form.msg}`;
+    window.open(whatsappUrl(msg), "_blank", "noopener,noreferrer");
+  };
+
   return (
     <>
       {/* HERO */}
@@ -159,8 +175,8 @@ function Index() {
         </div>
       </Section>
 
-      {/* ABOUT (resumo) */}
-      <Section eyebrow="Sobre">
+      {/* ABOUT — versão completa */}
+      <Section id="sobre" eyebrow="Sobre">
         <div className="grid gap-16 md:grid-cols-12 md:gap-12">
           <div className="md:col-span-5">
             <figure>
@@ -172,41 +188,85 @@ function Index() {
                 height={1280}
                 className="aspect-[4/5] w-full object-cover"
               />
+              <p className="mt-5 text-[11px] uppercase tracking-[0.3em] text-muted-foreground">
+                {SITE.name} · {SITE.crp}
+              </p>
             </figure>
           </div>
           <div className="md:col-span-7">
             <h2 className="font-serif text-4xl md:text-5xl text-primary-deep text-balance">
-              Sou Camila Saraiva Lima e a escuta é, antes de tudo, um cuidado.
+              Uma escuta que se faz <em className="italic text-accent">tempo</em>, presença e cuidado.
             </h2>
             <div className="mt-8 space-y-5 text-foreground/85">
               <p>
-                Atendo adultos em processos de psicanálise, online e presencialmente em
-                Passo Fundo · RS. Acredito que cada percurso é singular e que a clínica
-                se constrói no encontro — entre o que se diz, o que se cala e o que vai,
-                aos poucos, ganhando forma.
+                Sou Camila Saraiva Lima, psicóloga. Vivo e atendo em Passo Fundo · RS, e me
+                dedico há mais de uma década à clínica de adultos. Cheguei à psicanálise como
+                quem reconhece, em outra língua, algo que já se intuía: que escutar é também
+                uma forma de cuidar, e que existem perguntas que pedem mais tempo do que
+                respostas.
               </p>
               <p>
-                Meu trabalho parte de uma escuta ética e atenta, sem julgamentos, sem pressa
-                e sem promessas. Acredito que o sofrimento merece um espaço onde possa ser
-                pensado, e não apenas amenizado.
+                Minha formação reúne a graduação em Psicologia pela USP e a formação
+                psicanalítica pelo Instituto Sedes Sapientiae, com supervisão clínica
+                contínua e participação em grupos de estudo orientados pela leitura de
+                Freud, Winnicott e Lacan. Estes são caminhos — não destinos.
               </p>
               <p>
-                Mais do que credenciais, ofereço presença. Mais do que respostas, ofereço
-                companhia para que você encontre as suas.
+                Acredito em uma clínica ética, discreta e atenta. Não trabalho com promessas
+                de resultado, técnicas de aceleração emocional, nem com qualquer linguagem
+                que reduza a vida a desempenho. Acredito, antes, no valor da palavra dita no
+                tempo certo, e do silêncio quando ele se faz necessário.
               </p>
             </div>
-            <Link
-              to="/sobre"
-              className="mt-10 inline-flex items-center text-[11px] uppercase tracking-[0.3em] text-primary-deep link-underline"
-            >
-              Conhecer um pouco mais →
-            </Link>
+
+            <h3 className="mt-10 font-serif text-2xl text-primary-deep">Valores</h3>
+            <ul className="mt-4 list-none space-y-3 pl-0 text-foreground/85">
+              {[
+                "Escuta ética, sem julgamento",
+                "Sigilo absoluto",
+                "Respeito ao tempo de cada processo",
+                "Linguagem cuidadosa, longe de jargões",
+                "Estudo e supervisão contínuos",
+              ].map((v) => (
+                <li key={v} className="flex items-baseline gap-4">
+                  <span className="mt-2 h-px w-6 bg-accent" />
+                  <span>{v}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </div>
+      </Section>
+
+      {/* ABORDAGEM */}
+      <Section id="abordagem" eyebrow="Abordagem" className="bg-surface/60">
+        <div className="grid gap-12 md:grid-cols-12">
+          <div className="md:col-span-5">
+            <h2 className="font-serif text-4xl md:text-5xl text-primary-deep text-balance">
+              Psicanálise — uma escuta que <em className="italic text-accent">sustenta</em> o tempo do sujeito.
+            </h2>
+            <p className="mt-6 text-foreground/75">
+              A psicanálise não é um método para corrigir o que se vive. É uma forma de
+              escutar o que ainda não foi possível dizer, e de acompanhar quem deseja
+              compreender, em outra chave, a própria história.
+            </p>
+          </div>
+          <div className="md:col-span-7 grid gap-px bg-border/70 sm:grid-cols-2">
+            {pilares.map((p, i) => (
+              <article key={p.t} className="bg-background p-8 md:p-10">
+                <p className="font-serif text-sm tracking-[0.3em] text-accent">
+                  {String(i + 1).padStart(2, "0")}
+                </p>
+                <h3 className="mt-5 font-serif text-2xl text-primary-deep">{p.t}</h3>
+                <p className="mt-4 text-sm text-foreground/80">{p.d}</p>
+              </article>
+            ))}
           </div>
         </div>
       </Section>
 
       {/* AREAS */}
-      <Section eyebrow="Áreas de cuidado" className="bg-surface/60">
+      <Section id="areas" eyebrow="Áreas de cuidado">
         <h2 className="max-w-3xl font-serif text-4xl md:text-5xl text-primary-deep text-balance">
           Possíveis pontos de partida para uma escuta.
         </h2>
@@ -227,7 +287,7 @@ function Index() {
       </Section>
 
       {/* HOW IT WORKS */}
-      <Section eyebrow="Como funciona a terapia">
+      <Section eyebrow="Como funciona a terapia" className="bg-surface/60">
         <div className="grid gap-12 md:grid-cols-12">
           <div className="md:col-span-4">
             <h2 className="font-serif text-4xl md:text-5xl text-primary-deep text-balance">
@@ -253,7 +313,6 @@ function Index() {
           </ol>
         </div>
       </Section>
-
 
       {/* TESTIMONIALS */}
       <Section eyebrow="Quem caminhou comigo">
@@ -313,6 +372,96 @@ function Index() {
               ))}
             </Accordion>
           </div>
+        </div>
+      </Section>
+
+      {/* CONTATO */}
+      <Section id="contato" eyebrow="Contato">
+        <h2 className="max-w-3xl font-serif text-4xl md:text-5xl text-primary-deep text-balance">
+          Uma primeira conversa começa por uma <em className="italic text-accent">mensagem</em>.
+        </h2>
+        <p className="mt-6 max-w-2xl text-lg text-foreground/80">
+          Escreva sem formalidade. Respondo pessoalmente, em até dois dias úteis, para
+          combinarmos um horário possível para uma primeira escuta.
+        </p>
+
+        <div className="mt-16 grid gap-16 md:grid-cols-12 md:gap-12">
+          <div className="md:col-span-5 space-y-10">
+            <div>
+              <p className="text-[11px] uppercase tracking-[0.3em] text-muted-foreground">WhatsApp</p>
+              <a href={whatsappUrl()} target="_blank" rel="noopener noreferrer" className="mt-3 inline-block font-serif text-2xl text-primary-deep link-underline">
+                +55 54 99197-6608
+              </a>
+            </div>
+            <div>
+              <p className="text-[11px] uppercase tracking-[0.3em] text-muted-foreground">E-mail</p>
+              <a href={`mailto:${SITE.email}`} className="mt-3 inline-block font-serif text-2xl text-primary-deep link-underline">
+                {SITE.email}
+              </a>
+            </div>
+            <div>
+              <p className="text-[11px] uppercase tracking-[0.3em] text-muted-foreground">Instagram</p>
+              <a href={SITE.instagramUrl} target="_blank" rel="noopener noreferrer" className="mt-3 inline-block font-serif text-2xl text-primary-deep link-underline">
+                {SITE.instagram}
+              </a>
+            </div>
+            <div>
+              <p className="text-[11px] uppercase tracking-[0.3em] text-muted-foreground">Atendimento</p>
+              <p className="mt-3 font-serif text-2xl text-primary-deep">
+                Online · Presencial em Passo Fundo · RS
+              </p>
+            </div>
+          </div>
+
+          <form onSubmit={handleSubmit} className="md:col-span-7 space-y-8">
+            <label className="block">
+              <span className="text-[11px] uppercase tracking-[0.3em] text-muted-foreground">Nome *</span>
+              <div className="mt-3">
+                <input
+                  required
+                  type="text"
+                  value={form.nome}
+                  onChange={(e) => setForm({ ...form, nome: e.target.value })}
+                  className="w-full border-b border-border bg-transparent pb-3 pt-1 font-serif text-2xl text-primary-deep placeholder:text-muted-foreground/50 focus:border-primary-deep focus:outline-none"
+                  placeholder="Como você se chama?"
+                />
+              </div>
+            </label>
+            <label className="block">
+              <span className="text-[11px] uppercase tracking-[0.3em] text-muted-foreground">E-mail *</span>
+              <div className="mt-3">
+                <input
+                  required
+                  type="email"
+                  value={form.email}
+                  onChange={(e) => setForm({ ...form, email: e.target.value })}
+                  className="w-full border-b border-border bg-transparent pb-3 pt-1 font-serif text-2xl text-primary-deep placeholder:text-muted-foreground/50 focus:border-primary-deep focus:outline-none"
+                  placeholder="seu@email.com"
+                />
+              </div>
+            </label>
+            <label className="block">
+              <span className="text-[11px] uppercase tracking-[0.3em] text-muted-foreground">Mensagem</span>
+              <div className="mt-3">
+                <textarea
+                  rows={5}
+                  value={form.msg}
+                  onChange={(e) => setForm({ ...form, msg: e.target.value })}
+                  className="w-full resize-none border-b border-border bg-transparent pb-3 pt-1 font-sans text-base leading-relaxed text-foreground placeholder:text-muted-foreground/60 focus:border-primary-deep focus:outline-none"
+                  placeholder="Escreva o que sentir necessário compartilhar — pode ser breve."
+                />
+              </div>
+            </label>
+            <button
+              type="submit"
+              className="mt-6 inline-flex items-center bg-primary-deep px-8 py-4 text-[11px] uppercase tracking-[0.3em] text-primary-foreground transition-colors hover:bg-primary"
+            >
+              Enviar pelo WhatsApp
+            </button>
+            <p className="text-xs text-muted-foreground">
+              Suas informações são utilizadas apenas para retorno e respeitam total sigilo.
+            </p>
+          </form>
         </div>
       </Section>
 

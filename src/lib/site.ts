@@ -16,9 +16,8 @@ export const whatsappUrl = (msg: string = SITE.whatsappMessage) =>
 
 export const NAV = [
   { to: "/", label: "Início" },
-  { to: "/sobre", label: "Sobre" },
-  { to: "/abordagem", label: "Abordagem" },
-  { to: "/areas", label: "Áreas de cuidado" },
-  { to: "/reflexoes", label: "Reflexões" },
-  { to: "/contato", label: "Contato" },
+  { to: "/#sobre", label: "Sobre" },
+  { to: "/#abordagem", label: "Abordagem" },
+  { to: "/#areas", label: "Áreas de cuidado" },
+  { to: "/#contato", label: "Contato" },
 ] as const;
