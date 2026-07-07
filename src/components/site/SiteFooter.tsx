@@ -21,9 +21,9 @@ export function SiteFooter() {
           <ul className="mt-5 space-y-2.5">
             {NAV.map((item) => (
               <li key={item.to}>
-                <Link to={item.to} className="text-sm text-foreground/80 link-underline">
+                <a href={item.to} className="text-sm text-foreground/80 link-underline">
                   {item.label}
-                </Link>
+                </a>
               </li>
             ))}
           </ul>
