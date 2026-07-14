@@ -245,9 +245,12 @@ function Index() {
               Psicanálise — uma escuta que <em className="italic text-accent">sustenta</em> o tempo do sujeito.
             </h2>
             <p className="mt-6 text-foreground/75">
-              A psicanálise não é um método para corrigir o que se vive. É uma forma de
-              escutar o que ainda não foi possível dizer, e de acompanhar quem deseja
-              compreender, em outra chave, a própria história.
+              Trabalho a partir da psicanálise — uma prática de escuta que considera a
+              singularidade de cada sujeito e reconhece a importância do inconsciente
+              naquilo que pensamos, sentimos e repetimos. Meu olhar clínico volta-se para
+              os sintomas, os conflitos, os afetos e os modos particulares como cada
+              pessoa constrói sentido para sua história. As sessões acontecem semanalmente,
+              com 50 minutos, online ou presencialmente em Passo Fundo · RS.
             </p>
           </div>
           <div className="md:col-span-7 grid gap-px bg-border/70 sm:grid-cols-2">
