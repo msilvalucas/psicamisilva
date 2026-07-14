@@ -195,27 +195,26 @@ function Index() {
           </div>
           <div className="md:col-span-7">
             <h2 className="font-serif text-4xl md:text-5xl text-primary-deep text-balance">
-              Uma escuta que se faz <em className="italic text-accent">tempo</em>, presença e cuidado.
+              Um espaço para <em className="italic text-accent">escutar</em> aquilo que ainda pede palavra.
             </h2>
             <div className="mt-8 space-y-5 text-foreground/85">
               <p>
-                Sou Camila Saraiva Lima, psicóloga. Vivo e atendo em Passo Fundo · RS, e me
-                dedico há mais de uma década à clínica de adultos. Cheguei à psicanálise como
-                quem reconhece, em outra língua, algo que já se intuía: que escutar é também
-                uma forma de cuidar, e que existem perguntas que pedem mais tempo do que
-                respostas.
+                Sou Camila Saraiva de Lima, psicóloga de orientação psicanalítica. Atendo
+                adultos de forma presencial, em Passo Fundo · RS, e também online.
               </p>
               <p>
-                Minha formação reúne a graduação em Psicologia pela USP e a formação
-                psicanalítica pelo Instituto Sedes Sapientiae, com supervisão clínica
-                contínua e participação em grupos de estudo orientados pela leitura de
-                Freud, Winnicott e Lacan. Estes são caminhos — não destinos.
+                Meu encontro com a psicanálise surgiu do reconhecimento de que nem toda
+                experiência humana pode ser compreendida por meio de respostas rápidas ou
+                soluções padronizadas. Há questões que precisam ser escutadas antes de serem
+                interpretadas, conflitos que demandam tempo para serem elaborados e
+                sofrimentos que necessitam de um espaço onde possam encontrar palavras.
               </p>
               <p>
-                Acredito em uma clínica ética, discreta e atenta. Não trabalho com promessas
-                de resultado, técnicas de aceleração emocional, nem com qualquer linguagem
-                que reduza a vida a desempenho. Acredito, antes, no valor da palavra dita no
-                tempo certo, e do silêncio quando ele se faz necessário.
+                Sustento minha prática clínica por meio do estudo contínuo, da supervisão e
+                da formação permanente, entendendo que a escuta analítica exige constante
+                aprofundamento e reflexão. Acredito na construção de um espaço ético e
+                acolhedor, onde cada pessoa possa falar de sua história, de seus impasses e
+                de seus desejos, respeitando a singularidade de seu percurso.
               </p>
             </div>
 
