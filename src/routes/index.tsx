@@ -49,9 +49,9 @@ const areas = [
 ];
 
 const pilares = [
-  { t: "Escuta", d: "Não toda escuta é a mesma. A escuta psicanalítica acolhe o que se diz e o que escapa àquilo que se quis dizer." },
-  { t: "Tempo",  d: "Há um tempo lógico em cada processo. A clínica respeita esse tempo, mesmo quando ele difere do tempo do mundo." },
-  { t: "Palavra",d: "É pela palavra — dita, repetida, esquecida, recuperada — que algo se elabora. A linguagem é o instrumento e a matéria." },
+  { t: "Escuta", d: "A escuta psicanalítica não se limita ao que é dito de forma consciente. Ela se orienta também pelos lapsos, repetições, silêncios, contradições e por aquilo que insiste em retornar, revelando algo da singularidade de cada sujeito." },
+  { t: "Tempo",  d: "Não se trata de acelerar processos ou alcançar resultados imediatos, mas de permitir que cada elaboração aconteça no tempo necessário para que algo possa, de fato, produzir transformação." },
+  { t: "Palavra",d: "A palavra ocupa um lugar central no trabalho analítico. Ao falar livremente, o sujeito pode construir novos sentidos para sua história, reconhecer repetições e encontrar outras formas de se relacionar com aquilo que o faz sofrer." },
   { t: "Ética",  d: "Sigilo, respeito e a recusa em prescrever modos de viver. A análise convida o sujeito a se responsabilizar pelo próprio desejo." },
 ];
 
