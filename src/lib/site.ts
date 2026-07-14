@@ -1,5 +1,5 @@
 export const SITE = {
-  name: "Camila Saraiva Lima",
+  name: "Camila Saraiva de Lima",
   role: "PSICÓLOGA",
   crp: "CRP 07/43338",
   city: "Passo Fundo · RS",

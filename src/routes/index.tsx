@@ -49,9 +49,9 @@ const areas = [
 ];
 
 const pilares = [
-  { t: "Escuta", d: "Não toda escuta é a mesma. A escuta psicanalítica acolhe o que se diz e o que escapa àquilo que se quis dizer." },
-  { t: "Tempo",  d: "Há um tempo lógico em cada processo. A clínica respeita esse tempo, mesmo quando ele difere do tempo do mundo." },
-  { t: "Palavra",d: "É pela palavra — dita, repetida, esquecida, recuperada — que algo se elabora. A linguagem é o instrumento e a matéria." },
+  { t: "Escuta", d: "A escuta psicanalítica não se limita ao que é dito de forma consciente. Ela se orienta também pelos lapsos, repetições, silêncios, contradições e por aquilo que insiste em retornar, revelando algo da singularidade de cada sujeito." },
+  { t: "Tempo",  d: "Não se trata de acelerar processos ou alcançar resultados imediatos, mas de permitir que cada elaboração aconteça no tempo necessário para que algo possa, de fato, produzir transformação." },
+  { t: "Palavra",d: "A palavra ocupa um lugar central no trabalho analítico. Ao falar livremente, o sujeito pode construir novos sentidos para sua história, reconhecer repetições e encontrar outras formas de se relacionar com aquilo que o faz sofrer." },
   { t: "Ética",  d: "Sigilo, respeito e a recusa em prescrever modos de viver. A análise convida o sujeito a se responsabilizar pelo próprio desejo." },
 ];
 
@@ -98,10 +98,10 @@ function Index() {
           <div className="md:col-span-7">
             <p className="text-[11px] uppercase tracking-[0.35em] text-muted-foreground">
               <span className="mr-3 inline-block h-px w-8 -translate-y-1 bg-current align-middle" />
-              PSICANÁLISE · PASSO FUNDO&nbsp;· RS
+              PSICÓLOGA · PASSO FUNDO&nbsp;· RS
             </p>
             <h1 className="mt-8 font-serif text-[clamp(2.5rem,6.5vw,5.25rem)] leading-[1.02] tracking-[-0.02em] text-primary-deep text-balance">
-              Um espaço para <em className="font-medium italic text-accent">escuta</em>, reflexão e descoberta de si.
+              Uma escuta que se faz <em className="font-medium italic text-accent">tempo</em>, presença e cuidado.
             </h1>
             <p className="mt-8 max-w-xl text-lg leading-relaxed text-foreground/80 text-pretty">
               Pela psicanálise, exploramos suas experiências, emoções e relações buscando, no
@@ -195,27 +195,26 @@ function Index() {
           </div>
           <div className="md:col-span-7">
             <h2 className="font-serif text-4xl md:text-5xl text-primary-deep text-balance">
-              Uma escuta que se faz <em className="italic text-accent">tempo</em>, presença e cuidado.
+              Um espaço para <em className="italic text-accent">escutar</em> aquilo que ainda pede palavra.
             </h2>
             <div className="mt-8 space-y-5 text-foreground/85">
               <p>
-                Sou Camila Saraiva Lima, psicóloga. Vivo e atendo em Passo Fundo · RS, e me
-                dedico há mais de uma década à clínica de adultos. Cheguei à psicanálise como
-                quem reconhece, em outra língua, algo que já se intuía: que escutar é também
-                uma forma de cuidar, e que existem perguntas que pedem mais tempo do que
-                respostas.
+                Sou Camila Saraiva de Lima, psicóloga de orientação psicanalítica. Atendo
+                adultos de forma presencial, em Passo Fundo · RS, e também online.
               </p>
               <p>
-                Minha formação reúne a graduação em Psicologia pela USP e a formação
-                psicanalítica pelo Instituto Sedes Sapientiae, com supervisão clínica
-                contínua e participação em grupos de estudo orientados pela leitura de
-                Freud, Winnicott e Lacan. Estes são caminhos — não destinos.
+                Meu encontro com a psicanálise surgiu do reconhecimento de que nem toda
+                experiência humana pode ser compreendida por meio de respostas rápidas ou
+                soluções padronizadas. Há questões que precisam ser escutadas antes de serem
+                interpretadas, conflitos que demandam tempo para serem elaborados e
+                sofrimentos que necessitam de um espaço onde possam encontrar palavras.
               </p>
               <p>
-                Acredito em uma clínica ética, discreta e atenta. Não trabalho com promessas
-                de resultado, técnicas de aceleração emocional, nem com qualquer linguagem
-                que reduza a vida a desempenho. Acredito, antes, no valor da palavra dita no
-                tempo certo, e do silêncio quando ele se faz necessário.
+                Sustento minha prática clínica por meio do estudo contínuo, da supervisão e
+                da formação permanente, entendendo que a escuta analítica exige constante
+                aprofundamento e reflexão. Acredito na construção de um espaço ético e
+                acolhedor, onde cada pessoa possa falar de sua história, de seus impasses e
+                de seus desejos, respeitando a singularidade de seu percurso.
               </p>
             </div>
 
@@ -246,9 +245,12 @@ function Index() {
               Psicanálise — uma escuta que <em className="italic text-accent">sustenta</em> o tempo do sujeito.
             </h2>
             <p className="mt-6 text-foreground/75">
-              A psicanálise não é um método para corrigir o que se vive. É uma forma de
-              escutar o que ainda não foi possível dizer, e de acompanhar quem deseja
-              compreender, em outra chave, a própria história.
+              Trabalho a partir da psicanálise — uma prática de escuta que considera a
+              singularidade de cada sujeito e reconhece a importância do inconsciente
+              naquilo que pensamos, sentimos e repetimos. Meu olhar clínico volta-se para
+              os sintomas, os conflitos, os afetos e os modos particulares como cada
+              pessoa constrói sentido para sua história. As sessões acontecem semanalmente,
+              com 50 minutos, online ou presencialmente em Passo Fundo · RS.
             </p>
           </div>
           <div className="md:col-span-7 grid gap-px bg-border/70 sm:grid-cols-2">
