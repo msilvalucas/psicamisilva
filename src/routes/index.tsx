@@ -117,7 +117,7 @@ function Index() {
                 Agendar uma sessão
               </a>
               <a
-                href="#filosofia"
+                href="#sobre"
                 className="inline-flex items-center px-2 py-4 text-[11px] uppercase tracking-[0.3em] text-primary-deep link-underline"
               >
                 Saber mais →
@@ -143,37 +143,6 @@ function Index() {
         </div>
       </section>
 
-      {/* PHILOSOPHY */}
-      <Section id="filosofia" eyebrow="Filosofia" className="bg-surface/60">
-        <div className="grid gap-16 md:grid-cols-12 md:gap-12">
-          <div className="md:col-span-7">
-            <h2 className="font-serif text-[clamp(2.25rem,5vw,4rem)] leading-[1.05] text-primary-deep text-balance">
-              O silêncio <em className="italic text-accent">também</em> tem algo a dizer.
-            </h2>
-            <div className="mt-10 flex items-center gap-4 text-muted-foreground">
-              <span className="h-px w-16 bg-current" />
-              <span className="h-1.5 w-1.5 rounded-full bg-current" />
-              <span className="h-px w-24 bg-current" />
-            </div>
-          </div>
-          <div className="md:col-span-5 space-y-6 text-foreground/85">
-            <p>
-              A terapia não acontece apenas pela palavra. Ela se faz também nas pausas,
-              nos retornos, naquilo que demora a ser dito e que, justamente por isso,
-              pede um espaço seguro para aparecer.
-            </p>
-            <p>
-              A escuta psicanalítica acolhe o tempo do sujeito. Não há pressa em concluir,
-              corrigir ou resolver. Há, antes, o cuidado de sustentar o que ainda procura
-              uma forma de se nomear.
-            </p>
-            <p className="font-serif text-2xl italic leading-snug text-primary-deep">
-              “Curar é, muitas vezes, encontrar coragem para escutar o que sempre esteve
-              ali apenas aguardando ser ouvido.”
-            </p>
-          </div>
-        </div>
-      </Section>
 
       {/* ABOUT — versão completa */}
       <Section id="sobre" eyebrow="Sobre">
