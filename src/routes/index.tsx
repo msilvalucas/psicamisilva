@@ -206,8 +206,36 @@ function Index() {
         </div>
       </Section>
 
+      {/* HOW IT WORKS */}
+      <Section eyebrow="Como funciona a terapia" className="bg-surface/60">
+        <div className="grid gap-12 md:grid-cols-12">
+          <div className="md:col-span-4">
+            <h2 className="font-serif text-4xl md:text-5xl text-primary-deep text-balance">
+              Um percurso construído no seu tempo.
+            </h2>
+            <p className="mt-6 text-foreground/75">
+              Cada etapa respeita a singularidade do encontro. Não há fórmulas: há
+              acolhimento, ética e a constância da escuta.
+            </p>
+          </div>
+          <ol className="md:col-span-8 space-y-px bg-border/70">
+            {steps.map((s) => (
+              <li key={s.n} className="grid grid-cols-12 gap-6 bg-background p-8 md:p-10">
+                <p className="col-span-12 font-serif text-sm tracking-[0.3em] text-accent md:col-span-2">
+                  {s.n}
+                </p>
+                <div className="col-span-12 md:col-span-10">
+                  <h3 className="font-serif text-2xl text-primary-deep">{s.t}</h3>
+                  <p className="mt-3 text-foreground/75">{s.d}</p>
+                </div>
+              </li>
+            ))}
+          </ol>
+        </div>
+      </Section>
+
       {/* ABORDAGEM */}
-      <Section id="abordagem" eyebrow="Abordagem" className="bg-surface/60">
+      <Section id="abordagem" eyebrow="Abordagem">
         <div className="grid gap-12 md:grid-cols-12">
           <div className="md:col-span-5">
             <h2 className="font-serif text-4xl md:text-5xl text-primary-deep text-balance">
@@ -254,34 +282,6 @@ function Index() {
               <p className="mt-4 text-sm leading-relaxed text-foreground/75">{a.d}</p>
             </article>
           ))}
-        </div>
-      </Section>
-
-      {/* HOW IT WORKS */}
-      <Section eyebrow="Como funciona a terapia" className="bg-surface/60">
-        <div className="grid gap-12 md:grid-cols-12">
-          <div className="md:col-span-4">
-            <h2 className="font-serif text-4xl md:text-5xl text-primary-deep text-balance">
-              Um percurso construído no seu tempo.
-            </h2>
-            <p className="mt-6 text-foreground/75">
-              Cada etapa respeita a singularidade do encontro. Não há fórmulas: há
-              acolhimento, ética e a constância da escuta.
-            </p>
-          </div>
-          <ol className="md:col-span-8 space-y-px bg-border/70">
-            {steps.map((s) => (
-              <li key={s.n} className="grid grid-cols-12 gap-6 bg-background p-8 md:p-10">
-                <p className="col-span-12 font-serif text-sm tracking-[0.3em] text-accent md:col-span-2">
-                  {s.n}
-                </p>
-                <div className="col-span-12 md:col-span-10">
-                  <h3 className="font-serif text-2xl text-primary-deep">{s.t}</h3>
-                  <p className="mt-3 text-foreground/75">{s.d}</p>
-                </div>
-              </li>
-            ))}
-          </ol>
         </div>
       </Section>
 

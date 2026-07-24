@@ -32,9 +32,6 @@ export function SiteFooter() {
           <p className="text-[11px] uppercase tracking-[0.3em] text-muted-foreground">Contato</p>
           <ul className="mt-5 space-y-2.5 text-sm">
             <li>
-              <a href={`mailto:${SITE.email}`} className="link-underline">{SITE.email}</a>
-            </li>
-            <li>
               <a href={SITE.instagramUrl} target="_blank" rel="noopener noreferrer" className="link-underline">
                 Instagram {SITE.instagram}
               </a>
