@@ -93,8 +93,8 @@ function Index() {
   return (
     <>
       {/* HERO */}
-      <section className="relative overflow-hidden pt-10 md:pt-20">
-        <div className="container-editorial grid items-center gap-14 pb-24 md:grid-cols-12 md:gap-10 md:pb-32">
+      <section className="relative overflow-hidden pt-6 md:pt-16">
+        <div className="container-editorial grid items-center gap-10 pb-12 md:grid-cols-12 md:gap-10 md:pb-24">
           <div className="md:col-span-7">
             <p className="text-[11px] uppercase tracking-[0.35em] text-muted-foreground">
               <span className="mr-3 inline-block h-px w-8 -translate-y-1 bg-current align-middle" />
