@@ -438,7 +438,7 @@ function Index() {
 
       {/* FINAL CTA */}
       <section className="bg-primary-deep text-primary-foreground">
-        <div className="container-editorial py-28 md:py-40">
+        <div className="container-editorial py-14 md:py-28">
           <p className="text-[11px] uppercase tracking-[0.35em] text-primary-foreground/60">
             <span className="mr-3 inline-block h-px w-8 -translate-y-1 bg-current align-middle" />
             Convite
