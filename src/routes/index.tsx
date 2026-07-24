@@ -101,7 +101,7 @@ function Index() {
               PSICÓLOGA · PASSO FUNDO&nbsp;· RS
             </p>
             <h1 className="mt-8 font-serif text-[clamp(2.5rem,6.5vw,5.25rem)] leading-[1.02] tracking-[-0.02em] text-primary-deep text-balance">
-              Uma escuta que se faz <em className="font-medium italic text-accent">tempo</em>, presença e cuidado.
+              Uma escuta que se faz com&nbsp;<em className="font-medium italic text-accent">tempo</em>, presença e cuidado.
             </h1>
             <p className="mt-8 max-w-xl text-lg leading-relaxed text-foreground/80 text-pretty">
               Pela psicanálise, exploramos suas experiências, emoções e relações buscando, no
