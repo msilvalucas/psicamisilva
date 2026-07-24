@@ -168,8 +168,8 @@ function Index() {
             </h2>
             <div className="mt-8 space-y-5 text-foreground/85">
               <p>
-                Sou Camila Saraiva de Lima, psicóloga de orientação psicanalítica. Atendo
-                adultos de forma presencial, em Passo Fundo · RS, e também online.
+              Sou Camila Saraiva de Lima, psicóloga de orientação psicanalítica. Atendo
+              adultos de forma presencial, em Passo Fundo · RS, e online para todo o Brasil.
               </p>
               <p>
                 Meu encontro com a psicanálise surgiu do reconhecimento de que nem toda
