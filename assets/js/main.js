@@ -1,8 +1,5 @@
-import { initContactForm } from "./contact.js";
-import { initAccordion, initCarousel } from "./interactions.js";
+import { initAccordion } from "./interactions.js";
 import { initNavigation } from "./navigation.js";
 
 initNavigation();
 initAccordion();
-initCarousel();
-initContactForm();

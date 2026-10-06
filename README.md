@@ -17,7 +17,7 @@ Acesse `http://localhost:4173/`.
 - `index.html`: conteúdo e metadados da página principal.
 - `404.html`: página de URL não encontrada para hosts estáticos compatíveis.
 - `assets/css/styles.css`: identidade visual e layout responsivo.
-- `assets/js/`: módulos de navegação, carrossel, FAQ e contato.
+- `assets/js/`: módulos de navegação e FAQ.
 - `assets/images/`: imagens originais em PNG e versões WebP otimizadas.
 
 Para publicar, envie a raiz do repositório a qualquer hospedagem de arquivos estáticos. Configure o host para servir `404.html` nas URLs inexistentes.
