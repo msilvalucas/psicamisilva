@@ -857,6 +857,10 @@
   .split-media {
     height: 520px;
   }
+  /* Empilhado, o retrato do Sobre vai depois do texto para não colar na foto do hero. */
+  #sobre .split-media {
+    order: 1;
+  }
 }
 
 @media (max-width: 600px) {
@@ -897,9 +901,9 @@
     flex: 0 0 82%;
     scroll-snap-align: start;
   }
-  .hero .split-media,
-  #sobre .split-media {
-    display: none;
+  .split-media {
+    height: 440px;
+    min-height: 0;
   }
   .floating-actions {
     right: 12px;
